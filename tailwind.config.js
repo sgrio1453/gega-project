@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily : {
-        gemunu: ['Gemunu Libre', 'sans-serif'],
-        open: ['Open Sans', 'sans-serif']
+        'gemunu': ['Gemunu Libre', 'sans-serif'],
+        'open': ['Open Sans', 'sans-serif']
       }
     },
   },
