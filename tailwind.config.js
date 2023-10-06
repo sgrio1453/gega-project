@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily : {
+        gemunu: ['Gemunu Libre', 'sans-serif'],
+        open: ['Open Sans', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
