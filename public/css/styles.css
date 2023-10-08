@@ -593,14 +593,6 @@ a {
   left: 2.5rem;
 }
 
-.left-5 {
-  left: 1.25rem;
-}
-
-.top-1 {
-  top: 0.25rem;
-}
-
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -1000,6 +992,10 @@ a {
   padding-right: 1rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1260,6 +1256,19 @@ a {
   .md\:flex-row {
     flex-direction: row;
   }
+
+  .md\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .md\:pl-4 {
+    padding-left: 1rem;
+  }
+
+  .md\:pl-0 {
+    padding-left: 0px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1323,10 +1332,6 @@ a {
     width: 1rem;
   }
 
-  .lg\:w-44 {
-    width: 11rem;
-  }
-
   .lg\:w-40 {
     width: 10rem;
   }
@@ -1371,12 +1376,6 @@ a {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
-  .lg\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-    margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:px-0 {
